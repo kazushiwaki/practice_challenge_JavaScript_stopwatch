@@ -1,7 +1,72 @@
-.test {
-  color: blue;
+.timer_title {
+  text-align: center;
+  font-size: 30px;
+  color: #FDD615;
+  -webkit-text-stroke: 2px #06120B;
 }
 
-.add_background_color_yellow {
-  background-color: yellow;
+.timer_frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 240px;
+  border-radius: 2px;
+  border: solid 2px #f1df82;
+  background-color: #FDD615;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timer_display {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  height: 100px;
+  background-color: #959840;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+
+.timer {
+  font-size: 60px;
+  font-weight: bold;
+  color: #06120B;
+}
+
+.timer_name {
+  color: #06120B;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  letter-spacing: 0.15em;
+}
+
+.timer_buttons {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #06120B;
+  font-weight: bold;
+  border: solid #06120B;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.disabled_btn {
+  background-color: #ccc; /* グレー */
+  color: #666;
+  cursor: not-allowed;
 }
