@@ -1,5 +1,5 @@
 ## 概要
-＜実践課題＞Javascript ストップウオッチ
+＜実践課題＞Javascript ストップウォッチ
 
 ## 内容
-JavaScriptを利用して、ストップウオッチの作成。
+JavaScriptを利用して、ストップウォッチの作成。
